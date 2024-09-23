@@ -12,11 +12,11 @@ var _ = Describe("Parallelsecond", func() {
 	})
 
 	It("parallel test1", func() {  
-		time.Sleep(30*time.Second)
+		time.Sleep(2*time.Second)
       })
 
 	It("parallel test2", func() {  
-		time.Sleep(15*time.Second)
+		time.Sleep(1*time.Second)
       })
 	AfterEach(func() {
 	})
